@@ -1,4 +1,4 @@
-import NavBar from "../NavBar"
+
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 
@@ -9,7 +9,6 @@ const ContactPage = () => {
     const [email, setEmail] = useState("")
     return (
         <div>
-            <NavBar />
             <h1>Contact</h1>
 <label>First Name: </label>
 <input type='text' onChange={(e)=>{
